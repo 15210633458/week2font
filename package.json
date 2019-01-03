@@ -1,0 +1,28 @@
+{
+    "name": "week2font",
+    "version": "1.0.0",
+    "description": "周考二前端",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/15210633458/week2font.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/15210633458/week2font/issues"
+    },
+    "homepage": "https://github.com/15210633458/week2font#readme",
+    "dependencies": {
+        "gulp": "^4.0.0",
+        "gulp-clean-css": "*",
+        "gulp-concat": "^2.6.1",
+        "gulp-htmlmin": "*",
+        "gulp-sass": "*",
+        "gulp-webserver": "^0.9.1"
+    }
+}
