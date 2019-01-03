@@ -16,7 +16,7 @@ gulp.task('server', function() {
         .pipe(server({
             port: 3500,
             proxies: [
-                { source: '/api/get/list', target: 'http://localhost:3000/api/get/list]' }
+                { source: '/api/get/list', target: 'http://localhost:3000/api/get/list' }
             ]
         }))
 })
