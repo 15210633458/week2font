@@ -21,6 +21,9 @@ html,
         width: 100%;
         height: 40px;
         line-height: 40px;
+        .active {
+            color: red;
+        }
     }
     .list-wrap {
         width: 100%;
@@ -30,7 +33,21 @@ html,
             width: 100%;
             height: auto;
             dl {
+                width: 45%;
+                height: 130px;
                 border: 1px solid #ccc;
+                margin: 10px 1%;
+                float: left;
+                dt {
+                    width: 100%;
+                    img {
+                        width: 90%;
+                        margin: 5px 5%;
+                    }
+                }
+                dd {
+                    text-align: center;
+                }
             }
         }
     }
